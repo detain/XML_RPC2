@@ -119,6 +119,13 @@ class XML_RPC2_Util_HTTPRequest
      */
     private $_httpRequest = null;
 
+    /**
+     * body value
+     *
+     * @var string
+     */
+    private $_body = null;
+
     // }}}
     // {{{ getBody()
 
