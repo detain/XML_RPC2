@@ -163,7 +163,7 @@ class XML_RPC2_Backend_Php_Request
 
         $result = '<?xml version="1.0" encoding="' . $this->_encoding . '"?>' . "\n";
         $result .= "<methodCall>";
-        $result .= "<methodName>${methodName}</methodName>";
+        $result .= "<methodName>{$methodName}</methodName>";
         $result .= "<params>";
         foreach($parameters as $parameter) {
             $result .= "<param><value>";
